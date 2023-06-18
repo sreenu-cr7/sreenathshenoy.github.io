@@ -99,7 +99,7 @@ ul {
 	height: 40px;
 	line-height: 40px;
 	padding: 0 20px;
-	background-color: #3deaa4;
+	background-color: #a06be3;
 	color: #000;
 	position: relative;
 	z-index: 1;
@@ -176,7 +176,7 @@ ul {
 	display: inline-block;
 	font-size: 23px;
 	margin-bottom: 70px;
-	color: #3deaa4;
+	color: #a06be3;
 	line-height: 1;
 	position: relative;
 }
@@ -252,7 +252,7 @@ p {
 	position: absolute;
 	height: 0%;
 	width: 2px;
-	background-color: #3deaa4;
+	background-color: #a06be3;
 	top: 0;
 	right: 0;
 }
@@ -303,7 +303,7 @@ nav ul li a:hover {
 
 nav ul li a.active,
 nav ul li a.active:hover {
-	color: #61fdb0;
+	color: #b67aff;
 }
 
 nav ul li a.active {
@@ -341,7 +341,7 @@ nav ul li a::after {
 	content: "";
 	left: -40px;
 	top: calc(50% - 10px);
-	background-color: #0d451f;
+	background-color: #af75f65d;
 	height: 20px;
 	width: 0;
 	z-index: -1;
@@ -432,7 +432,7 @@ body.noscroll header.fixed {
 	height: 40px;
 	width: 40px;
 	line-height: 40px;
-	background: #3deaa4;
+	background: #a06be3;
 	color: #000;
 	right: 15px;
 	cursor: pointer;
@@ -483,7 +483,7 @@ body.noscroll header.fixed {
 	content: "";
 	height: 100%;
 	width: 50%;
-	background-color: #3deaa4;
+	background-color: #a06be3;
 	right: 0;
 	top: -15px;
 	z-index: -2;
@@ -555,7 +555,7 @@ body.noscroll header.fixed {
 	width: 30px;
 	left: 0;
 	top: 15px;
-	background: #3deaa4;
+	background: #a06be3;
 }
 
 /* start about wrapper */
@@ -584,7 +584,7 @@ body.noscroll header.fixed {
 	content: "";
 	height: 1px;
 	width: 15px;
-	background-color: #3deaa4;
+	background-color: #a06be3;
 	right: -27px;
 	top: 13px;
 }
@@ -677,7 +677,7 @@ body.noscroll header.fixed {
 	content: "";
 	height: 1px;
 	width: 0;
-	background-color: #3deaa4;
+	background-color: #a06be3;
 	right: 0;
 	top: 0;
 	z-index: -1;
@@ -705,7 +705,7 @@ body.noscroll header.fixed {
 	font-size: 30px;
 	display: inline-block;
 	margin-bottom: 30px;
-	color: #3deaa4;
+	color: #a06be3;
 }
 
 .service-item h4 {
@@ -718,7 +718,7 @@ body.noscroll header.fixed {
 	content: "";
 	height: 10px;
 	width: 0;
-	background: #3deaa4;
+	background: #a06be3;
 	left: 0;
 	bottom: 1px;
 	z-index: -1;
@@ -767,7 +767,7 @@ body.noscroll header.fixed {
 
 .skill-item .skill-percent {
 	height: 100%;
-	background: #3deaa4;
+	background: #a06be3;
 }
 
 /* start education wrapper */
@@ -793,7 +793,7 @@ body.noscroll header.fixed {
 	height: 15px;
 	width: 15px;
 	background-color: transparent;
-	border: 1px solid #3deaa4;
+	border: 1px solid #a06be3;
 	left: -30px;
 	top: calc(50% - 7px);
 	border-radius: 50px;
@@ -808,7 +808,7 @@ body.noscroll header.fixed {
 	content: "";
 	height: 30px;
 	width: 1px;
-	background-color: #3deaa4;
+	background-color: #a06be3;
 	left: -23px;
 	top: 12px;
 	transition: .3s;
@@ -843,7 +843,19 @@ body.noscroll header.fixed {
 .experience-wrapper {
 	padding-bottom: 50px;
 }
+.subwrapper-left{
+	display: inline-block;
+	width: 60%;
+}
+.subwrapper-right{
+	display: inline-block;
+	float: right;
 
+}
+.certlogo{
+
+	width: 100px;
+}
 .experience-single {
 	margin-bottom: 30px;
 	padding: 25px;
@@ -867,7 +879,7 @@ body.noscroll header.fixed {
 }
 
 .experience-single:hover::after {
-	border-color: #3deaa4;
+	border-color: #a06be3;
 }
 
 .experience-single .company {
@@ -911,7 +923,7 @@ body.noscroll header.fixed {
 }
 
 .experience-single:hover .mute-text::after, .experience-single:hover .company::after {
-	border-color: #3deaa4;
+	border-color: #a06be3;
 }
 
 .experience-single .company-info {
@@ -1020,7 +1032,7 @@ body.noscroll header.fixed {
 	border: 0;
 	font-family: 'themify';
 	color: #000;
-	background: #3deaa4;
+	background: #a06be3;
 	line-height: 40px;
 	width: 40px;
 	height: 40px;
@@ -1179,7 +1191,7 @@ body.noscroll header.fixed {
 	display: inline-block;
 	line-height: 1;
 	margin-bottom: 4px;
-	color: #3deaa4;
+	color: #a06be3;
 	margin-right: 7px;
 }
 
@@ -1197,7 +1209,7 @@ body.noscroll header.fixed {
 
 .blog-title span {
     text-decoration: none;
-    background-image: linear-gradient(#3deaa4, #3deaa4);
+    background-image: linear-gradient#a06be3, #a06be3);
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: 0% 2px;
@@ -1237,7 +1249,7 @@ body.noscroll header.fixed {
 }
 
 .contact-info p span {
-	color: #3deaa4;
+	color: #a06be3;
 	font-size: 14px;
 	position: absolute;
 	left: 0;
@@ -1358,7 +1370,7 @@ textarea.input_field {
 
 .footer-social a:hover,
 .footer-copyright a:hover {
-	color: #3deaa4;
+	color: #a06be3;
 }
 
 /* end main-wrapper */

@@ -20,11 +20,19 @@
     header.fixed {
         max-width: calc(100% - 245px);
     }
+    .subwrapper-right{
+        float: none;
+    
+    }
 }
 
 @media (max-width: 800px) and (min-width:768px) {
     .hero-content .intro-name {
         font-size: 36px;
+    }
+    .subwrapper-right{
+        float: none;
+    
     }
 }
 
@@ -71,6 +79,8 @@
     .hero-content .intro-name {
         font-size: 40px;
     }
+    
+
 }
 
 /* Small devices (mobile, 575px and down) */
